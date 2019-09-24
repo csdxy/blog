@@ -1,0 +1,25 @@
+{
+  "name": "csdxy",
+  "version": "1.0.0",
+  "description": "我的博客",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp && vuepress dev docs",
+    "build": "gulp && vuepress build docs",
+    "lint": "markdownlint docs"
+  },
+  "author": "csdxy",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
+    "gulp": "^3.9.1",
+    "gulp-replace": "^1.0.0",
+    "markdownlint": "^0.16.0",
+    "markdownlint-cli": "^0.18.0",
+    "prettier": "1.15.3"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
