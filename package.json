@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "gulp && vuepress dev docs",
     "build": "gulp && vuepress build docs",
-    "lint": "markdownlint docs"
+    "lint": "markdownlint docs",
+    "deploy": "deploy.sh"
   },
   "author": "csdxy",
   "license": "ISC",
